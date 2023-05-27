@@ -1,3 +1,4 @@
+#rock image
 rock = '''
     _______
 ---'   ____)
@@ -6,6 +7,7 @@ rock = '''
       (____)
 ---.__(___)
 '''
+#paper image
 
 paper = '''
     _______
@@ -15,6 +17,7 @@ paper = '''
          _______)
 ---.__________)
 '''
+#scissors image
 
 scissors = '''
     _______
@@ -25,7 +28,6 @@ scissors = '''
 ---.__(___)
 '''
 
-#Write your code below this line 👇
 import random 
 Computerpick = random.randint(0,2)
 game_images= [rock,paper,scissors]
